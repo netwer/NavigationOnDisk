@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>2b7b9fd5-b876-4d65-b21c-e7165513c299</ProjectGuid>
+    <ProjectGuid>{F7B277ED-DD12-4FAC-AC84-6CB019248BB5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NavigationOnDiskUnitTestProject</RootNamespace>
@@ -50,8 +50,18 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="NavigationOnDiskUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NavigationOnDiskLib\NavigationOnDiskLib.csproj">
+      <Project>{5a279f4e-6ba8-4b0d-a085-e9a7e01dce27}</Project>
+      <Name>NavigationOnDiskLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NavigationOnDiskModel\NavigationOnDiskModel.csproj">
+      <Project>{150870c0-f616-4e85-a5f7-231331e07312}</Project>
+      <Name>NavigationOnDiskModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
