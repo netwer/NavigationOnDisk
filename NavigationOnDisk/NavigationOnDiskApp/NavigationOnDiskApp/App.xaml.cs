@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
+using NavigationOnDiskApp.View;
+using NavigationOnDiskApp.ViewModel;
+using NavigationOnDiskLib.Services.Implementations;
 
 namespace NavigationOnDiskApp
 {
@@ -13,5 +10,11 @@ namespace NavigationOnDiskApp
     /// </summary>
     public partial class App : Application
     {
+        private void OnStartup(object sender, StartupEventArgs e)
+        {
+            MainUserControl mainUserControl = new MainUserControl(new NavigationOnDiskService(), new NavigationOnDiskViewModel());
+            MainWindow view = new MainWindow {Content = mainUserControl};
+            view.Show();
+        }
     }
 }
