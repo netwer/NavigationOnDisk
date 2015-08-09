@@ -1,0 +1,11 @@
+﻿<Window x:Class="NavigationOnDiskProject.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:view="clr-namespace:NavigationOnDiskProject.View"
+        Title="MainWindow" Height="350" Width="620"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        DataContext="{Binding NavigationOnDisk, Source={StaticResource Locator}}">
+
+    <view:MainUserControl />
+</Window>
