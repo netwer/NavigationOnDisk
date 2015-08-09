@@ -45,9 +45,9 @@
     <Compile Include="Services\Interfaces\INavigationOnDiskService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NavigationOnDiskProjectModel\NavigationOnDiskProjectModel.csproj">
+    <ProjectReference Include="..\NavigationOnDiskModel\NavigationOnDiskModel.csproj">
       <Project>{cd147ca0-5a14-446b-a081-e053f2248200}</Project>
-      <Name>NavigationOnDiskProjectModel</Name>
+      <Name>NavigationOnDiskModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

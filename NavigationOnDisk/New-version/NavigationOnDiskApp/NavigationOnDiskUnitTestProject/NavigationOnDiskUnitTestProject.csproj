@@ -54,13 +54,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NavigationOnDiskProjectLib\NavigationOnDiskProjectLib.csproj">
+    <ProjectReference Include="..\NavigationOnDiskLib\NavigationOnDiskLib.csproj">
       <Project>{93675c27-30f1-4719-a1ea-aa1189666b3c}</Project>
-      <Name>NavigationOnDiskProjectLib</Name>
+      <Name>NavigationOnDiskLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NavigationOnDiskProjectModel\NavigationOnDiskProjectModel.csproj">
+    <ProjectReference Include="..\NavigationOnDiskModel\NavigationOnDiskModel.csproj">
       <Project>{cd147ca0-5a14-446b-a081-e053f2248200}</Project>
-      <Name>NavigationOnDiskProjectModel</Name>
+      <Name>NavigationOnDiskModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

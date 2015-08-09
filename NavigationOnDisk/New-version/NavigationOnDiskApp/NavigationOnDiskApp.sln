@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationOnDiskProject", "NavigationOnDiskProject\NavigationOnDiskProject.csproj", "{9D2F6BDE-7BF9-406F-917F-AF1D7B98B59B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationOnDiskApp", "NavigationOnDiskApp\NavigationOnDiskApp.csproj", "{9D2F6BDE-7BF9-406F-917F-AF1D7B98B59B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationOnDiskProjectModel", "NavigationOnDiskProjectModel\NavigationOnDiskProjectModel.csproj", "{CD147CA0-5A14-446B-A081-E053F2248200}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationOnDiskModel", "NavigationOnDiskModel\NavigationOnDiskModel.csproj", "{CD147CA0-5A14-446B-A081-E053F2248200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationOnDiskProjectLib", "NavigationOnDiskProjectLib\NavigationOnDiskProjectLib.csproj", "{93675C27-30F1-4719-A1EA-AA1189666B3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationOnDiskLib", "NavigationOnDiskLib\NavigationOnDiskLib.csproj", "{93675C27-30F1-4719-A1EA-AA1189666B3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationOnDiskProjectUnitTestProject", "NavigationOnDiskProjectUnitTestProject\NavigationOnDiskProjectUnitTestProject.csproj", "{82DCCD66-F257-4AC7-9D06-DDBEA2E8FB32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationOnDiskUnitTestProject", "NavigationOnDiskUnitTestProject\NavigationOnDiskUnitTestProject.csproj", "{82DCCD66-F257-4AC7-9D06-DDBEA2E8FB32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
